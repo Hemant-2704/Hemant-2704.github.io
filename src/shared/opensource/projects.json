@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": "blockbazar-nft",
+      "name": "BlockBazar - NFT Marketplace",
+      "createdAt": "2024-05-15T10:00:00Z",
+      "url": "https://github.com/Hemant-2704",
+      "description": "Built a decentralized NFT marketplace supporting ERC-721 token minting, listing, purchasing, and ownership transfer. Integrated IPFS for decentralized metadata storage and Ethers.js for Ethereum and Polygon blockchain interactions. Applied OpenZeppelin security standards and validated smart contract functionality through Foundry-based testing with reentrancy-safe payment mechanisms.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Solidity",
+          "iconifyClass": "simple-icons:solidity"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        }
+      ]
+    },
+    {
+      "id": "crowdfunding-smart-contract",
+      "name": "Crowdfunding Smart Contract",
+      "createdAt": "2024-03-20T12:00:00Z",
+      "url": "https://github.com/Hemant-2704",
+      "description": "Designed and integrated an Ethereum-based crowdfunding smart contract with goal validation and refund mechanisms. Engineered secure fund-handling mechanisms with reentrancy protection and comprehensive unit/fuzz testing using Foundry.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Solidity",
+          "iconifyClass": "simple-icons:solidity"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": "stationery-management-system",
+      "name": "Stationery Management System",
+      "createdAt": "2023-11-10T14:30:00Z",
+      "url": "https://github.com/Hemant-2704",
+      "description": "Developed a Python-based inventory management application for tracking stationery stock and usage. Implemented input validation, stock monitoring, automated low-inventory alerts, and generated inventory history and reporting features to improve stock management.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "grin-and-earn",
+      "name": "Grin & Earn (Blockchain)",
+      "createdAt": "2024-01-18T09:15:00Z",
+      "url": "https://github.com/Hemant-2704",
+      "description": "Developed a blockchain-powered reward distribution system triggered by emotion-detection outputs. Utilized smart contract logic for transparent reward allocation and transaction tracking, with Web3.js for frontend-to-blockchain communication and real-time event monitoring.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Solidity",
+          "iconifyClass": "simple-icons:solidity"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    }
+  ]
+}

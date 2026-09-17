@@ -1,0 +1,126 @@
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+.greet-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.gretting-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+}
+
+.greeting-main {
+  display: flex;
+}
+
+.greeting-main > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+.button-greeting-div {
+  display: flex;
+  margin-top: 20px;
+}
+
+.greeting-text {
+  margin-top: 80px;
+  font-size: 70px;
+  line-height: 1.1;
+  font-family: "Google Sans Bold";
+}
+
+.greeting-nickname {
+  font-size: 30px;
+  line-height: 0px;
+  font-family: "Google Sans Bold Italic";
+}
+
+.greeting-text-p {
+  font-size: 40px;
+  line-height: 40px;
+  margin-right: 40px;
+  font-family: "Google Sans Medium";
+}
+
+.greeting-image-div > * {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Profile Photo Styles */
+.greeting-profile-photo {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  background-image: linear-gradient(white, white),
+    linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 0 20px 60px rgba(102, 126, 234, 0.4),
+    0 8px 25px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 40px auto 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: floatPhoto 4s ease-in-out infinite;
+}
+
+.greeting-profile-photo:hover {
+  transform: scale(1.04) translateY(-4px);
+  box-shadow: 0 28px 70px rgba(102, 126, 234, 0.55),
+    0 12px 35px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes floatPhoto {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-12px); }
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 50px;
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .greeting-nickname {
+    font-size: 25px;
+    text-align: center;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: center;
+  }
+  .greeting-main {
+    display: block;
+  }
+
+  .portfolio-repo-btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

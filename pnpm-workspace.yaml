@@ -1,0 +1,5 @@
+allowBuilds:
+  baseui: true
+  core-js: true
+  es5-ext: true
+  husky: true
