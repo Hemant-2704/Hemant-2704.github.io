@@ -29,3 +29,4 @@ yarn-error.log*
 /WhatsApp*.jpeg
 *.log
 
+.vercel
