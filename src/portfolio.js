@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Hemant Singh Rathore | Portfolio",
   description:
-    "Final-year B.Tech Computer Science (Blockchain) student with hands-on experience in blockchain development, smart contract engineering, and software development. Proficient in Solidity, Python, JavaScript, and Web3 development technologies.",
+    "Recently graduated B.Tech Computer Science (Blockchain) student with hands-on experience in blockchain development, smart contract engineering, and software development. Proficient in Solidity, Python, JavaScript, and Web3 development technologies.",
   og: {
     title: "Hemant Singh Rathore Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "HemantSinghRathore",
   nickname: "Hemant",
   subTitle:
-    "Final-year B.Tech Computer Science (Blockchain) student with hands-on experience in blockchain development, smart contract engineering, and software development. Proficient in Solidity, Python, JavaScript, and Web3 development technologies. Seeking Software Engineer, Blockchain Developer, or Associate Engineer roles.",
+    "Recently graduated B.Tech Computer Science (Blockchain) student with hands-on experience in blockchain development, smart contract engineering, and software development. Proficient in Solidity, Python, JavaScript, and Web3 development technologies. Seeking Software Engineer, Blockchain Developer, or Associate Engineer roles.",
   resumeLink: "/resume",
   portfolio_repository: "https://github.com/Hemant-2704/Hemant-2704.github.io",
   githubProfile: "https://github.com/Hemant-2704",
@@ -243,7 +243,7 @@ const degrees = {
       alt_name: "SATI Vidisha",
       duration: "2022 - 2026",
       descriptions: [
-        "⚡ Maintaining a strong academic performance with CGPA: 8.29.",
+        "⚡ Maintaining a strong academic performance with CGPA: 8.44.",
         "⚡ Comprehensive study of core CS fundamentals: Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer Networks.",
         "⚡ Specialization in Blockchain Technology, Smart Contracts, Distributed Ledger, Ethereum, and Web3 architectures.",
         "⚡ Management Lead for Training & Placement Cell (2023–2025) and active member of BIS Club (CSE Department).",

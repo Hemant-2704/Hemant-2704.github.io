@@ -1,10 +1,10 @@
 {
   "data": [
     {
-      "id": "blockbazar-nft",
+      "id": "R_kgDOSHY_Wg",
       "name": "BlockBazar - NFT Marketplace",
-      "createdAt": "2024-05-15T10:00:00Z",
-      "url": "https://github.com/Hemant-2704",
+      "createdAt": "2026-04-20T07:17:57Z",
+      "url": "https://github.com/Hemant-2704/Block-Bazaar-",
       "description": "Built a decentralized NFT marketplace supporting ERC-721 token minting, listing, purchasing, and ownership transfer. Integrated IPFS for decentralized metadata storage and Ethers.js for Ethereum and Polygon blockchain interactions. Applied OpenZeppelin security standards and validated smart contract functionality through Foundry-based testing with reentrancy-safe payment mechanisms.",
       "isFork": false,
       "languages": [
@@ -23,14 +23,18 @@
         {
           "name": "CSS",
           "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript-icon"
         }
       ]
     },
     {
-      "id": "crowdfunding-smart-contract",
+      "id": "R_kgDORWNjtA",
       "name": "Crowdfunding Smart Contract",
-      "createdAt": "2024-03-20T12:00:00Z",
-      "url": "https://github.com/Hemant-2704",
+      "createdAt": "2026-02-22T17:46:49Z",
+      "url": "https://github.com/Hemant-2704/crowdfunding-Smart-Contract-project-",
       "description": "Designed and integrated an Ethereum-based crowdfunding smart contract with goal validation and refund mechanisms. Engineered secure fund-handling mechanisms with reentrancy protection and comprehensive unit/fuzz testing using Foundry.",
       "isFork": false,
       "languages": [
@@ -41,28 +45,18 @@
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "stationery-management-system",
-      "name": "Stationery Management System",
-      "createdAt": "2023-11-10T14:30:00Z",
-      "url": "https://github.com/Hemant-2704",
-      "description": "Developed a Python-based inventory management application for tracking stationery stock and usage. Implemented input validation, stock monitoring, automated low-inventory alerts, and generated inventory history and reporting features to improve stock management.",
-      "isFork": false,
-      "languages": [
+        },
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
         }
       ]
     },
     {
-      "id": "grin-and-earn",
+      "id": "R_kgDORV3c0A",
       "name": "Grin & Earn (Blockchain)",
-      "createdAt": "2024-01-18T09:15:00Z",
-      "url": "https://github.com/Hemant-2704",
+      "createdAt": "2026-02-22T06:01:54Z",
+      "url": "https://github.com/Hemant-2704/Grin-Earn",
       "description": "Developed a blockchain-powered reward distribution system triggered by emotion-detection outputs. Utilized smart contract logic for transparent reward allocation and transaction tracking, with Web3.js for frontend-to-blockchain communication and real-time event monitoring.",
       "isFork": false,
       "languages": [
@@ -75,8 +69,58 @@
           "iconifyClass": "logos-javascript"
         },
         {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDORWj1-A",
+      "name": "Stationery Management System",
+      "createdAt": "2026-02-23T06:49:16Z",
+      "url": "https://github.com/Hemant-2704/Stationery-Management-System-",
+      "description": "Developed a Python-based inventory management application for tracking stationery stock and usage. Implemented input validation, stock monitoring, automated low-inventory alerts, and generated inventory history and reporting features to improve stock management.",
+      "isFork": false,
+      "languages": [
+        {
           "name": "Python",
           "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOUF-b2w",
+      "name": "C-DAC Python Assignments & Modules",
+      "createdAt": "2026-08-27T12:07:11Z",
+      "url": "https://github.com/Hemant-2704/CDAC-Assignments_Python_Module",
+      "description": "Comprehensive Python programming assignments, laboratory implementations, data structures, algorithms, and practical problem-solving solutions completed under the C-DAC curriculum.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "nillion-python-starter",
+      "name": "Nillion Privacy Computing Starter",
+      "createdAt": "2024-06-28T19:34:47Z",
+      "url": "https://github.com/Hemant-2704/nillion-python-starter",
+      "description": "Privacy-preserving decentralized computing application utilizing the Nillion SDK, Nada language, and Python client for confidential multi-party computation and secret sharing.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Shell",
+          "iconifyClass": "simple-icons:shell"
+        },
+        {
+          "name": "Dockerfile",
+          "iconifyClass": "simple-icons:docker"
         }
       ]
     }

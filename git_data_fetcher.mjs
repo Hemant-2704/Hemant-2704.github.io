@@ -121,6 +121,22 @@ const query_pinned_projects = {
 	        }
 	      }
 		  }
+	    repositories(first: 10, ownerAffiliations: OWNER, orderBy: {field: UPDATED_AT, direction: DESC}, isFork: false) {
+	      totalCount
+	      nodes {
+	        id
+	        name
+	        createdAt
+	        url
+	        description
+	        isFork
+	        languages(first: 10) {
+	          nodes {
+	            name
+	          }
+	        }
+	      }
+	    }
 	  }
 	}
 	`,
@@ -251,6 +267,8 @@ const languages_icons = {
   HTML: "logos-html-5",
   CSS: "logos-css-3",
   JavaScript: "logos-javascript",
+  TypeScript: "logos-typescript-icon",
+  Solidity: "simple-icons:solidity",
   "C#": "logos-c-sharp",
   Java: "logos-java",
   Shell: "simple-icons:shell",
@@ -258,6 +276,8 @@ const languages_icons = {
   PHP: "logos-php",
   Dockerfile: "simple-icons:docker",
   Rust: "logos-rust",
+  C: "logos-c",
+  "C++": "logos-c-plusplus",
 };
 
 fetch(baseUrl, {
@@ -268,12 +288,35 @@ fetch(baseUrl, {
   .then((response) => response.text())
   .then((txt) => {
     const data = JSON.parse(txt);
-    // console.log(txt);
-    const projects = data["data"]["user"]["pinnedItems"]["nodes"];
+    let projects = data?.data?.user?.pinnedItems?.nodes || [];
+    
+    // Fallback to recent public repositories if pinnedItems is empty
+    if (projects.length === 0 && data?.data?.user?.repositories?.nodes) {
+      projects = data.data.user.repositories.nodes.filter(
+        (r) => !r.isFork && r.name !== `${openSource.githubUserName}.github.io`
+      );
+    }
+
+    // Read existing descriptions if available
+    let existingMap = new Map();
+    try {
+      const existing = JSON.parse(
+        fs.readFileSync("./src/shared/opensource/projects.json", "utf8")
+      );
+      if (Array.isArray(existing?.data)) {
+        existing.data.forEach((p) => {
+          if (p.name) existingMap.set(p.name.toLowerCase(), p);
+          if (p.url) existingMap.set(p.url.toLowerCase(), p);
+        });
+      }
+    } catch (e) {
+      // Ignore if file doesn't exist
+    }
+
     var newProjects = { data: [] };
     for (var i = 0; i < projects.length; i++) {
-      var obj = projects[i];
-      var langobjs = obj["languages"]["nodes"];
+      var obj = { ...projects[i] };
+      var langobjs = obj["languages"]?.["nodes"] || [];
       var newLangobjs = [];
       for (var j = 0; j < langobjs.length; j++) {
         if (langobjs[j]["name"] in languages_icons) {
@@ -284,13 +327,25 @@ fetch(baseUrl, {
         }
       }
       obj["languages"] = newLangobjs;
+
+      // Preserve rich curated description if GitHub description is null or short
+      const match =
+        existingMap.get(obj.name?.toLowerCase()) ||
+        existingMap.get(obj.url?.toLowerCase());
+      if ((!obj.description || obj.description.length < 30) && match?.description) {
+        obj.description = match.description;
+      }
+      if (match?.name && match.name.length > obj.name.length) {
+        obj.name = match.name;
+      }
+
       newProjects["data"].push(obj);
     }
 
-    console.log("Fetching the Pinned Projects Data.\n");
+    console.log(`Fetched ${newProjects.data.length} projects successfully.\n`);
     fs.writeFile(
       "./src/shared/opensource/projects.json",
-      JSON.stringify(newProjects),
+      JSON.stringify(newProjects, null, 2),
       function (err) {
         if (err) {
           console.log(
