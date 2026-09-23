@@ -26,8 +26,9 @@ class Contact extends Component {
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
                 <img
+                  className="contact-profile-photo"
                   src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
-                  alt=""
+                  alt={ContactData["title"] || "Hemant Singh Rathore"}
                 />
               </div>
               <div className="contact-heading-text-div">
