@@ -41,7 +41,7 @@ export default function Greeting(props) {
           </div>
           <div className="greeting-image-div">
             <img
-              src={require("../../assets/images/hero_avatar.jpg")}
+              src={require("../../assets/images/hero_avatar.jpg").default || require("../../assets/images/hero_avatar.jpg")}
               alt="Hemant Singh Rathore"
               className="greeting-profile-photo"
             />
