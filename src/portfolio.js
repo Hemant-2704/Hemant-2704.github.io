@@ -427,7 +427,7 @@ const openSource = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "avatar_hemant.png",
+    profile_image_path: "hero_avatar.jpg",
     description:
       "I am available for Software Engineer, Blockchain Developer, and Associate Engineer opportunities. Feel free to reach out via email or LinkedIn — I will respond promptly!",
   },
