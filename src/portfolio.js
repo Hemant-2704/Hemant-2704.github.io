@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "HemantSinghRathore",
   nickname: "Hemant",
   subTitle:
-    "Recently graduated B.Tech Computer Science (Blockchain) student with hands-on experience in blockchain development, smart contract engineering, and software development. Proficient in Solidity, Python, JavaScript, and Web3 development technologies. Seeking Software Engineer, Blockchain Developer, or Associate Engineer roles.",
+    "B.Tech Computer Science (Blockchain) graduate currently pursuing PG Diploma in Big Data Analytics at CDAC Bengaluru. Hands-on experience in blockchain development, smart contract engineering, big data systems, and software development. Proficient in Solidity, Python, SQL, Hadoop, Spark, and Web3 technologies.",
   resumeLink: "/resume",
   portfolio_repository: "https://github.com/Hemant-2704/Hemant-2704.github.io",
   githubProfile: "https://github.com/Hemant-2704",
@@ -57,155 +57,129 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Designing and developing secure Smart Contracts adhering to ERC-20 and ERC-721 token standards",
-        "⚡ Validating and fuzz-testing contracts using Foundry, Remix, Truffle, and OpenZeppelin security standards",
+        "⚡ Validating and fuzz-testing contracts using Foundry, Remix, and OpenZeppelin security standards",
         "⚡ Web3 frontend-to-blockchain communication using Ethers.js, Web3.js, and decentralized storage with IPFS",
-        "⚡ Knowledge of Hyperledger Fabric (chaincode concepts, permissioned networks) and Layer-2 scaling (Optimistic & ZK Sync)",
+        "⚡ Knowledge of Hyperledger Fabric (permissioned networks) and decentralized app architecture",
       ],
       softwareSkills: [
         {
           skillName: "Solidity",
           fontAwesomeClassname: "simple-icons:solidity",
-          style: {
-            color: "#62688F",
-          },
+          style: { color: "#62688F" },
         },
         {
           skillName: "Ethereum",
           fontAwesomeClassname: "simple-icons:ethereum",
-          style: {
-            color: "#3C3C3D",
-          },
+          style: { color: "#3C3C3D" },
         },
         {
           skillName: "Web3.js",
           fontAwesomeClassname: "simple-icons:web3dotjs",
-          style: {
-            color: "#F16822",
-          },
+          style: { color: "#F16822" },
         },
         {
           skillName: "IPFS",
           fontAwesomeClassname: "simple-icons:ipfs",
-          style: {
-            color: "#69C4CD",
-          },
+          style: { color: "#69C4CD" },
         },
         {
           skillName: "Hyperledger",
           fontAwesomeClassname: "simple-icons:hyperledger",
-          style: {
-            color: "#2F3134",
-          },
+          style: { color: "#2F3134" },
         },
       ],
     },
     {
-      title: "Full Stack & Software Engineering",
+      title: "Big Data & Analytics",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Processing large-scale datasets using Hadoop (HDFS, MapReduce, YARN), Apache Spark, Hive, and Pig",
+        "⚡ Building ML pipelines with Python (Pandas, NumPy, Scikit-learn): Regression, Classification, NLP basics",
+        "⚡ Creating visual dashboards and insights using Tableau, Power BI, Matplotlib, Seaborn, and ggplot2",
+        "⚡ Currently pursuing PG Diploma in Big Data Analytics (BDA) at CDAC Bengaluru",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Apache Spark",
+          fontAwesomeClassname: "simple-icons:apachespark",
+          style: { color: "#E25A1C" },
+        },
+        {
+          skillName: "Hadoop",
+          fontAwesomeClassname: "simple-icons:apachehadoop",
+          style: { color: "#66CCFF" },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: { backgroundColor: "transparent", color: "#3776AB" },
+        },
+        {
+          skillName: "R",
+          fontAwesomeClassname: "simple-icons:r",
+          style: { color: "#276DC3" },
+        },
+        {
+          skillName: "Tableau",
+          fontAwesomeClassname: "simple-icons:tableau",
+          style: { color: "#E97627" },
+        },
+        {
+          skillName: "Power BI",
+          fontAwesomeClassname: "simple-icons:powerbi",
+          style: { color: "#F2C811" },
+        },
+        {
+          skillName: "Kafka",
+          fontAwesomeClassname: "simple-icons:apachekafka",
+          style: { color: "#231F20" },
+        },
+      ],
+    },
+    {
+      title: "Software Engineering & Databases",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Building backend and frontend software using Python, JavaScript, Solidity, and C",
-        "⚡ Developing database schemas and queries using MySQL, MongoDB, and MongoDB Compass",
-        "⚡ Strong computer science fundamentals: DSA, OOP, DBMS, Operating Systems, and Computer Networks",
-        "⚡ Experience with modern developer workflows: Git, GitHub Copilot, Postman, REST APIs, and VS Code",
+        "⚡ Building software using Python, JavaScript, Solidity, R, SQL, and C",
+        "⚡ Working with relational and NoSQL databases: MySQL, PostgreSQL, MongoDB, Cassandra",
+        "⚡ Strong CS fundamentals: DSA, OOP, DBMS, Operating Systems, and Computer Networks",
+        "⚡ Developer toolchain: Git, Docker, Jupyter, REST APIs, AWS basics, and VS Code",
       ],
       softwareSkills: [
         {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
+          style: { backgroundColor: "transparent", color: "#3776AB" },
         },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#A8B9CC",
-          },
+          style: { backgroundColor: "#000000", color: "#F7DF1E" },
         },
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
+          style: { color: "#4479A1" },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: { color: "#336791" },
         },
         {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
+          style: { color: "#47A248" },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: { color: "#1488C6" },
         },
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
-          style: {
-            color: "#F05032",
-          },
-        },
-        {
-          skillName: "Postman",
-          fontAwesomeClassname: "simple-icons:postman",
-          style: {
-            color: "#FF6C37",
-          },
-        },
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-      ],
-    },
-    {
-      title: "Data Science & Systems",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Inventory tracking, automated monitoring, low-stock alerts, and data reporting",
-        "⚡ Validated and verified 150+ operational records to ensure data accuracy and system consistency",
-        "⚡ Certified in Enterprise Data Science (IBM) and Business Intelligence & Analytics (NPTEL IIT Madras)",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
+          style: { color: "#F05032" },
         },
       ],
     },
@@ -237,15 +211,29 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
+      title: "CDAC, Bengaluru",
+      subtitle: "PG Diploma in Big Data Analytics (BDA)",
+      logo_path: "cdac_logo.png",
+      alt_name: "CDAC Bengaluru",
+      duration: "Aug 2026 - Feb 2027",
+      descriptions: [
+        "⚡ Intensive PG Diploma program covering Big Data tools: Hadoop, Apache Spark, Hive, Pig, and Kafka.",
+        "⚡ Machine Learning with Python (Pandas, NumPy, Scikit-learn): Regression, Classification, NLP.",
+        "⚡ Data visualization with Tableau, Power BI, Matplotlib, Seaborn, and ggplot2.",
+        "⚡ Working with databases including MySQL, PostgreSQL, MongoDB, and Cassandra.",
+      ],
+      website_link: "https://www.cdac.in/",
+    },
+    {
       title: "Samrat Ashok Technological Institute (SATI), Vidisha",
       subtitle: "B.Tech. in Computer Science (Blockchain)",
       logo_path: "sati_logo.png",
       alt_name: "SATI Vidisha",
       duration: "2022 - 2026",
       descriptions: [
-        "⚡ Maintaining a strong academic performance with CGPA: 8.44.",
-        "⚡ Comprehensive study of core CS fundamentals: Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer Networks.",
-        "⚡ Specialization in Blockchain Technology, Smart Contracts, Distributed Ledger, Ethereum, and Web3 architectures.",
+        "⚡ Graduated with strong academic performance — CGPA: 8.44.",
+        "⚡ Core CS fundamentals: Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer Networks.",
+        "⚡ Specialization in Blockchain Technology, Smart Contracts, Distributed Ledger, Ethereum, and Web3.",
         "⚡ Management Lead for Training & Placement Cell (2023–2025) and active member of BIS Club (CSE Department).",
       ],
       website_link: "https://www.satiengg.in/",
@@ -403,8 +391,49 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "A showcase of my projects in Blockchain, Smart Contracts, NFT Marketplaces, Web3 dApps, and Python Software Systems.",
+    "A showcase of my projects in Blockchain, Smart Contracts, NFT Marketplaces, Web3 dApps, and Big Data / ML systems.",
   avatar_image_path: "projects_image.svg",
+};
+
+const projects = {
+  data: [
+    {
+      id: "1",
+      name: "Block Bazar – NFT Marketplace",
+      url: "https://github.com/Hemant-2704",
+      description:
+        "Full-stack decentralized marketplace for ERC-721 NFTs. Integrated IPFS for metadata storage (zero centralized hosting cost). Smart contracts secured with OpenZeppelin standards and reentrancy-safe payment logic — zero critical vulnerabilities in Foundry test suite.",
+      languages: [
+        { name: "Solidity", iconifyClass: "logos-solidity" },
+        { name: "Ethers.js", iconifyClass: "simple-icons:ethers" },
+        { name: "IPFS", iconifyClass: "simple-icons:ipfs" },
+        { name: "JavaScript", iconifyClass: "logos-javascript" },
+      ],
+    },
+    {
+      id: "2",
+      name: "Crowdfunding Smart Contract",
+      url: "https://github.com/Hemant-2704",
+      description:
+        "Ethereum crowdfunding contract with automated goal validation and refund mechanisms. Achieved 100% unit and fuzz test coverage using the Foundry testing framework.",
+      languages: [
+        { name: "Solidity", iconifyClass: "logos-solidity" },
+        { name: "Foundry", iconifyClass: "simple-icons:ethereum" },
+      ],
+    },
+    {
+      id: "3",
+      name: "Grin & Earn – Blockchain Reward System",
+      url: "https://github.com/Hemant-2704",
+      description:
+        "Transparent on-chain reward distribution system triggered by emotion-detection outputs. Used Web3.js for real-time frontend-to-blockchain event monitoring.",
+      languages: [
+        { name: "Solidity", iconifyClass: "logos-solidity" },
+        { name: "Web3.js", iconifyClass: "simple-icons:web3dotjs" },
+        { name: "Python", iconifyClass: "logos-python" },
+      ],
+    },
+  ],
 };
 
 const publicationsHeader = {
@@ -467,6 +496,7 @@ export {
   experience,
   openSource,
   projectsHeader,
+  projects,
   publicationsHeader,
   publications,
   contactPageData,
