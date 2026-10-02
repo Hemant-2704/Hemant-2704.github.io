@@ -5,8 +5,7 @@ import { Fade } from "react-reveal";
 import "./Resume.css";
 import myResumePdf from "../../assets/docs/Hemant_Singh_Rathore_Resume.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
-import Button from "../../components/button/Button";
-import { greeting } from "../../portfolio";
+
 import TopButton from "../../components/topButton/TopButton";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -87,12 +86,22 @@ export default class ResumePage extends Component {
             <div>
               {/* Download Button */}
               <div className="download-btn">
-                <Button
-                  text="📃 Download Resume"
-                  newTab={true}
-                  href={greeting.resumeLink}
-                  theme={theme}
-                />
+                <a
+                  className="main-button"
+                  href={myResumePdf}
+                  download="Hemant_Singh_Rathore_Resume.pdf"
+                  style={{
+                    color: theme.body,
+                    backgroundColor: theme.text,
+                    border: `solid 1px ${theme.text}`,
+                    textDecoration: "none",
+                    padding: "10px 20px",
+                    borderRadius: "5px",
+                    display: "inline-block",
+                  }}
+                >
+                  📃 Download Resume
+                </a>
               </div>
 
               {/* Loading State */}
