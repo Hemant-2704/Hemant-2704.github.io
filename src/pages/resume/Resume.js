@@ -100,7 +100,7 @@ export default class ResumePage extends Component {
                     display: "inline-block",
                   }}
                 >
-                  📃 Download Resume
+                  <span role="img" aria-label="document">📃</span> Download Resume
                 </a>
               </div>
 
