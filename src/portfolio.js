@@ -391,7 +391,7 @@ const experience = {
           title: "Google Cloud Swags Achiever",
           company: "GDSC SATI (Google Developer Student Clubs)",
           company_url: "https://developers.google.com/community/gdsc",
-          logo_path: "google_logo.png",
+          logo_path: "dsc_logo.png",
           duration: "2022 - 2024",
           location: "Vidisha, Madhya Pradesh",
           description:
