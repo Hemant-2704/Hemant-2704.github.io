@@ -9,21 +9,21 @@ const settings = {
 const seo = {
   title: "Hemant Singh Rathore | Portfolio",
   description:
-    "Recently graduated B.Tech Computer Science (Blockchain) student with hands-on experience in blockchain development, smart contract engineering, and software development. Proficient in Solidity, Python, JavaScript, and Web3 development technologies.",
+    "Software Engineer, Blockchain Developer, and Big Data Analytics Scholar. Hands-on expertise in Solidity smart contracts, Python, full-stack Web3 dApps, and distributed data systems.",
   og: {
-    title: "Hemant Singh Rathore Portfolio",
+    title: "Hemant Singh Rathore | Portfolio",
     type: "website",
-    url: "https://hemant-2704.github.io/",
+    url: "https://hemantsinghrathore.me/",
   },
 };
 
 // Home Page Greeting
 const greeting = {
   title: "Hemant Singh Rathore",
-  logo_name: "HemantSinghRathore",
-  nickname: "Hemant",
+  logo_name: "", // Top signature removed
+  nickname: "", // Nickname removed
   subTitle:
-    "B.Tech Computer Science (Blockchain) graduate currently pursuing PG Diploma in Big Data Analytics at CDAC Bengaluru. Hands-on experience in blockchain development, smart contract engineering, big data systems, and software development. Proficient in Solidity, Python, SQL, Hadoop, Spark, and Web3 technologies.",
+    "Software engineer and blockchain developer with a solid foundation in computer science and data analytics. Currently advancing distributed computing and large-scale data systems through a PG Diploma in Big Data Analytics at CDAC Bengaluru. Dedicated to architecting secure smart contracts, resilient Web3 dApps, and scalable, data-driven applications.",
   resumeLink: "/resume",
   portfolio_repository: "https://github.com/Hemant-2704/Hemant-2704.github.io",
   githubProfile: "https://github.com/Hemant-2704",
@@ -38,7 +38,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/hemant-rathore-2405b6259",
+    link: "https://www.linkedin.com/in/hemant-rathore-2405b6259/",
     fontAwesomeIcon: "fa-linkedin-in",
     backgroundColor: "#0077B5",
   },
@@ -56,10 +56,10 @@ const skills = {
       title: "Blockchain & Distributed Ledger",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Designing and developing secure Smart Contracts adhering to ERC-20 and ERC-721 token standards",
-        "⚡ Validating and fuzz-testing contracts using Foundry, Remix, and OpenZeppelin security standards",
-        "⚡ Web3 frontend-to-blockchain communication using Ethers.js, Web3.js, and decentralized storage with IPFS",
-        "⚡ Knowledge of Hyperledger Fabric (permissioned networks) and decentralized app architecture",
+        "⚡ Architecting battle-tested smart contracts and decentralized protocols following ERC-20, ERC-721, and OpenZeppelin security standards",
+        "⚡ Rigorous validation, unit testing, and property-based fuzzing using Foundry to catch reentrancy vulnerabilities and ensure zero critical flaws",
+        "⚡ Building seamless full-stack dApps connecting intuitive web interfaces to on-chain logic using Ethers.js, Web3.js, and decentralized IPFS storage",
+        "⚡ Exploring permissioned enterprise ledgers and distributed architectures with Hyperledger Fabric",
       ],
       softwareSkills: [
         {
@@ -93,10 +93,10 @@ const skills = {
       title: "Big Data & Analytics",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Processing large-scale datasets using Hadoop (HDFS, MapReduce, YARN), Apache Spark, Hive, and Pig",
-        "⚡ Building ML pipelines with Python (Pandas, NumPy, Scikit-learn): Regression, Classification, NLP basics",
-        "⚡ Creating visual dashboards and insights using Tableau, Power BI, Matplotlib, Seaborn, and ggplot2",
-        "⚡ Currently pursuing PG Diploma in Big Data Analytics (BDA) at CDAC Bengaluru",
+        "⚡ Engineering scalable batch and streaming data pipelines using Apache Spark, Hadoop (HDFS, MapReduce, YARN), Hive, Pig, and Kafka",
+        "⚡ Developing predictive machine learning models and exploratory workflows in Python using Pandas, NumPy, and Scikit-learn",
+        "⚡ Crafting interactive business dashboards and analytical visualizations in Tableau, Power BI, Matplotlib, and Seaborn to translate data into actionable insights",
+        "⚡ Deepening core distributed systems and enterprise data engineering competencies through CDAC Bengaluru's PG Diploma program",
       ],
       softwareSkills: [
         {
@@ -140,10 +140,10 @@ const skills = {
       title: "Software Engineering & Databases",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Building software using Python, JavaScript, Solidity, R, SQL, and C",
-        "⚡ Working with relational and NoSQL databases: MySQL, PostgreSQL, MongoDB, Cassandra",
-        "⚡ Strong CS fundamentals: DSA, OOP, DBMS, Operating Systems, and Computer Networks",
-        "⚡ Developer toolchain: Git, Docker, Jupyter, REST APIs, AWS basics, and VS Code",
+        "⚡ Writing clean, maintainable, modular code across multi-language stacks: Python, JavaScript, Solidity, SQL, C, and R",
+        "⚡ Designing, querying, and tuning both relational and NoSQL databases: MySQL, PostgreSQL, MongoDB, and Cassandra",
+        "⚡ Solid theoretical and applied CS fundamentals: Data Structures & Algorithms, Object-Oriented Design, DBMS, OS, and Computer Networks",
+        "⚡ Professional development workflow: Git version control, Docker containerization, RESTful API integration, and cloud environments",
       ],
       softwareSkills: [
         {
@@ -203,7 +203,31 @@ const competitiveSites = {
       style: {
         color: "#0077B5",
       },
-      profileLink: "https://www.linkedin.com/in/hemant-rathore-2405b6259",
+      profileLink: "https://www.linkedin.com/in/hemant-rathore-2405b6259/",
+    },
+    {
+      siteName: "Credly (Google Cloud Badges)",
+      iconifyClassname: "simple-icons:credly",
+      style: {
+        color: "#FF6B00",
+      },
+      profileLink: "https://www.credly.com/users/hemant-rathore.8cb1367e",
+    },
+    {
+      siteName: "Credly (IBM & Certifications)",
+      iconifyClassname: "simple-icons:credly",
+      style: {
+        color: "#FF6B00",
+      },
+      profileLink: "https://www.credly.com/users/hemant-rathore.19576863",
+    },
+    {
+      siteName: "Cyfrin Web3 Achievements",
+      iconifyClassname: "simple-icons:ethereum",
+      style: {
+        color: "#62688F",
+      },
+      profileLink: "https://profiles.cyfrin.io/u/hemantcode/achievements",
     },
   ],
 };
@@ -217,12 +241,12 @@ const degrees = {
       alt_name: "CDAC Bengaluru",
       duration: "Aug 2026 - Feb 2027",
       descriptions: [
-        "⚡ Intensive PG Diploma program covering Big Data tools: Hadoop, Apache Spark, Hive, Pig, and Kafka.",
-        "⚡ Machine Learning with Python (Pandas, NumPy, Scikit-learn): Regression, Classification, NLP.",
-        "⚡ Data visualization with Tableau, Power BI, Matplotlib, Seaborn, and ggplot2.",
-        "⚡ Working with databases including MySQL, PostgreSQL, MongoDB, and Cassandra.",
+        "⚡ Immersive post-graduate specialization in distributed computing, enterprise Big Data architectures, and machine learning pipelines.",
+        "⚡ Hands-on data engineering with Hadoop (HDFS, MapReduce, YARN), Apache Spark, Hive, Pig, and Apache Kafka.",
+        "⚡ Advanced data science workflows using Python (Pandas, NumPy, Scikit-learn), R, and predictive machine learning models.",
+        "⚡ Designing and querying multi-model data storage solutions across MySQL, PostgreSQL, MongoDB, and Apache Cassandra.",
       ],
-      website_link: "https://www.cdac.in/",
+      website_link: "",
     },
     {
       title: "Samrat Ashok Technological Institute (SATI), Vidisha",
@@ -232,11 +256,12 @@ const degrees = {
       duration: "2022 - 2026",
       descriptions: [
         "⚡ Graduated with strong academic performance — CGPA: 8.44.",
-        "⚡ Core CS fundamentals: Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer Networks.",
-        "⚡ Specialization in Blockchain Technology, Smart Contracts, Distributed Ledger, Ethereum, and Web3.",
-        "⚡ Management Lead for Training & Placement Cell (2023–2025) and active member of BIS Club (CSE Department).",
+        "⚡ Comprehensive curriculum covering core CS: Data Structures & Algorithms, OOP, DBMS, OS, and Computer Networks.",
+        "⚡ Specialized coursework in Blockchain Architecture, Smart Contract Engineering, Distributed Ledgers, and Web3 Protocols.",
+        "⚡ Authored and presented peer-reviewed research on NFT marketplaces and Layer-2 scaling at NCACSIT-2025.",
+        "⚡ Served as Management Lead for the Training & Placement Cell and contributed actively to technical student clubs.",
       ],
-      website_link: "https://www.satiengg.in/",
+      website_link: "",
     },
     {
       title: "Carmel Convent Senior Secondary School, Bhopal",
@@ -245,11 +270,11 @@ const degrees = {
       alt_name: "Carmel Convent School Bhopal",
       duration: "2019 - 2022",
       descriptions: [
-        "⚡ Completed Class XII (CBSE) in 2021–2022.",
-        "⚡ Completed Class X (CBSE) in 2019–2020.",
-        "⚡ Strong foundation in Mathematics, Science, and Analytical Problem Solving.",
+        "⚡ Completed Class XII (CBSE) with focus on Mathematics, Physics, and Chemistry.",
+        "⚡ Completed Class X (CBSE) with distinction in Science and Mathematics.",
+        "⚡ Developed early problem-solving acumen, logical reasoning, and disciplined academic foundation.",
       ],
-      website_link: "https://carmelbhopal.net/",
+      website_link: "",
     },
   ],
 };
@@ -257,42 +282,43 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Oracle Blockchain Developer Certificate Badge",
-      subtitle: "Oracle University",
-      logo_path: "oracle_logo.png",
-      certificate_link: "https://www.linkedin.com/in/hemant-rathore-2405b6259",
-      alt_name: "Oracle University",
-      color_code: "#C7463499",
+      title: "Google Cloud Computing Badges (2024)",
+      subtitle: "Google Cloud / Credly",
+      logo_path: "google_logo.png",
+      certificate_link: "https://www.credly.com/users/hemant-rathore.8cb1367e",
+      alt_name: "Google Cloud Badges",
+      color_code: "#4285F499",
     },
     {
-      title: "Solidity 101",
-      subtitle: "Cyfrin Updraft",
-      logo_path: "cyfrin_logo.png",
-      certificate_link: "https://updraft.cyfrin.io/",
-      alt_name: "Cyfrin Updraft",
-      color_code: "#1E1E3899",
+      title: "Enterprise Data Science",
+      subtitle: "IBM / Credly",
+      logo_path: "ibm_logo.png",
+      certificate_link: "https://www.credly.com/users/hemant-rathore.19576863",
+      alt_name: "IBM",
+      color_code: "#1F70C199",
     },
     {
       title: "Full-Stack Web3 Development",
       subtitle: "Cyfrin Updraft",
       logo_path: "cyfrin_logo.png",
-      certificate_link: "https://updraft.cyfrin.io/",
+      certificate_link: "https://profiles.cyfrin.io/u/hemantcode/achievements",
       alt_name: "Cyfrin Updraft",
       color_code: "#00FFA333",
     },
     {
-      title: "Privacy and Security in Online Social Media",
-      subtitle: "NPTEL (IIT Hyderabad)",
-      logo_path: "nptel_logo.png",
-      certificate_link: "/certificates/NPTEL_Privacy_Security_Social_Media_Certificate.pdf",
-      alt_name: "NPTEL IIT Hyderabad",
-      color_code: "#FFBB0099",
+      title: "Solidity 101",
+      subtitle: "Cyfrin Updraft",
+      logo_path: "cyfrin_logo.png",
+      certificate_link: "https://profiles.cyfrin.io/u/hemantcode/achievements",
+      alt_name: "Cyfrin Updraft",
+      color_code: "#1E1E3899",
     },
     {
       title: "Business Intelligence & Analytics",
       subtitle: "NPTEL (IIT Madras)",
       logo_path: "nptel_logo.png",
-      certificate_link: "/certificates/Business_Intelligence_and_Analytics_Certificate.pdf",
+      certificate_link:
+        "https://drive.google.com/file/d/1YZA5st5RHpUIJ1v8FZFpVd2YwrbsL1lb/view?usp=sharing",
       alt_name: "NPTEL IIT Madras",
       color_code: "#FF8C0099",
     },
@@ -300,25 +326,45 @@ const certifications = {
       title: "Cyber Security and Privacy",
       subtitle: "NPTEL (IIT Madras)",
       logo_path: "nptel_logo.png",
-      certificate_link: "/certificates/Cyber_Security_and_Privacy_Certificate.pdf",
+      certificate_link:
+        "https://drive.google.com/file/d/1_wLgx8YNocHfBDGLQ-ja-Y47T_L4xpvs/view?usp=sharing",
       alt_name: "NPTEL IIT Madras",
       color_code: "#002B4999",
     },
     {
-      title: "Enterprise Data Science",
-      subtitle: "IBM",
-      logo_path: "ibm_logo.png",
-      certificate_link: "https://www.ibm.com/",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
+      title: "Privacy and Security in Online Social Media",
+      subtitle: "NPTEL (IIT Hyderabad)",
+      logo_path: "nptel_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1hFroCXRHxGYxh6zo-0YoanjJuTLx-k4j/view?usp=sharing",
+      alt_name: "NPTEL IIT Hyderabad",
+      color_code: "#FFBB0099",
     },
     {
-      title: "Programming Tactics Internship",
-      subtitle: "SATI Vidisha (CSE Dept)",
+      title: "Software Developer Internship",
+      subtitle: "Cyber Cell, Vidisha (ASP Office), MP",
+      logo_path: "cybercell_logo.png",
+      certificate_link:
+        "https://drive.google.com/drive/folders/1_nuDDLTHlWrHbACu5NMwwm-L7sFppaRs?usp=sharing",
+      alt_name: "Cyber Cell Vidisha",
+      color_code: "#0B1D3A99",
+    },
+    {
+      title: "Research Paper Presentation (NCACSIT-2025)",
+      subtitle: "MPCST & SATI Vidisha",
       logo_path: "sati_logo.png",
-      certificate_link: "/certificates/Internship_Certificate_Programming_Tactics.pdf",
-      alt_name: "SATI Vidisha",
+      certificate_link:
+        "https://drive.google.com/drive/folders/1fb7iwi5oRUl38NvUQKOW_hsfOTXm5ouL?usp=sharing",
+      alt_name: "NCACSIT 2025",
       color_code: "#00336699",
+    },
+    {
+      title: "Oracle Blockchain Developer Certificate Badge",
+      subtitle: "Oracle University",
+      logo_path: "oracle_logo.png",
+      certificate_link: "https://www.linkedin.com/in/hemant-rathore-2405b6259/",
+      alt_name: "Oracle University",
+      color_code: "#C7463499",
     },
   ],
 };
@@ -326,38 +372,36 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internships and Leadership",
+  subtitle: "Work, Internships and Technical Leadership",
   description:
-    "Hands-on experience in software development, data validation, and troubleshooting through developer internships. Active leader in campus placement management and technical clubs.",
+    "Demonstrated hands-on experience in software development, data audit, and system debugging through technical internships. Proactive leader in campus recruitment readiness and technical communities.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Internships",
-      // Marks the section holding the current/most recent role. It is used to
-      // build the schema.org jobTitle/worksFor data in
-      // components/seoHeader/SeoHeader.js, so it must not be removed.
       work: true,
       experiences: [
         {
           title: "Intern Developer",
           company: "Cyber Cell, Vidisha (ASP Office), MP",
-          company_url: "https://mppolice.gov.in/",
+          company_url:
+            "https://drive.google.com/drive/folders/1_nuDDLTHlWrHbACu5NMwwm-L7sFppaRs?usp=sharing",
           logo_path: "cybercell_logo.png",
           duration: "May 2025 - Oct 2025",
           location: "Vidisha, Madhya Pradesh",
           description:
-            "Supported software development and maintenance activities across design, coding, testing, debugging, and issue resolution phases. Verified and validated 150+ operational records to ensure data accuracy and consistency. Assisted in analyzing technical issues and implementing solutions to improve system reliability. Coordinated with team members during requirement collection and project execution activities.",
+            "Collaborated directly with law enforcement officers on software maintenance, data verification, and digital investigative support. Systematically audited and reconciled 150+ operational data records to ensure precision and eliminate inconsistencies. Assisted in identifying system bugs, improving workflow tracking, and developing reliable automated solutions for case record management.",
           color: "#0B1D3A",
         },
         {
           title: "In-House Internship – Programming Tactics",
           company: "Samrat Ashok Technological Institute, Vidisha",
-          company_url: "https://www.satiengg.in/",
+          company_url: "",
           logo_path: "sati_logo.png",
           duration: "July 2023",
           location: "Vidisha, Madhya Pradesh",
           description:
-            "Completed intensive training in data structures, algorithms, and programming fundamentals. Solved algorithmic and data structure-based coding challenges to strengthen problem-solving and analytical skills. Applied structured programming techniques to improve code efficiency and maintainability.",
+            "Completed intensive immersion in core algorithmic problem solving, time-space complexity optimization, and clean code principles. Built and benchmarked foundational data structures and solved algorithmic challenges to develop strong software engineering and problem-solving discipline.",
           color: "#003366",
         },
       ],
@@ -368,34 +412,34 @@ const experience = {
         {
           title: "Management Lead – Training & Placement Cell",
           company: "SATI Vidisha",
-          company_url: "https://www.satiengg.in/",
+          company_url: "",
           logo_path: "sati_logo.png",
           duration: "2023 - 2025",
           location: "Vidisha, Madhya Pradesh",
           description:
-            "Led student training initiatives and campus placement coordination across the engineering department. Managed recruiter communications, scheduled technical mock interviews, and assisted students with career prep.",
+            "Spearheaded department-level placement initiatives, bridging communication between visiting recruiters and 200+ engineering candidates. Organized mock technical interviews, peer coding preparation sessions, and logistical coordination for on-campus hiring drives.",
           color: "#003366",
         },
         {
           title: "1st Prize Winner & Member",
           company: "BIS Club (Bureau of Indian Standards), SATI CSE Dept",
-          company_url: "https://www.bis.gov.in/",
+          company_url: "",
           logo_path: "bis_logo.png",
-          duration: "2023 - Present",
+          duration: "2023 - 2025",
           location: "Vidisha, Madhya Pradesh",
           description:
-            "Awarded 1st Prize in Standard Writing Competition organized by BIS Club, SATI. Earned the Manak Mitra Campaign Certificate from the Bureau of Indian Standards. Active participant in technical department activities.",
+            "Awarded 1st Prize in the Technical Standard Writing Competition organized by the Bureau of Indian Standards (BIS) Club, demonstrating clarity in technical communication and documentation standards. Certified as a Manak Mitra for active contributions to technical quality outreach.",
           color: "#002B49",
         },
         {
-          title: "Google Cloud Swags Achiever",
-          company: "GDSC SATI (Google Developer Student Clubs)",
-          company_url: "https://developers.google.com/community/gdsc",
+          title: "Google Cloud Milestone & Swags Achiever",
+          company: "Google Developer Student Clubs (GDSC)",
+          company_url: "https://www.credly.com/users/hemant-rathore.8cb1367e",
           logo_path: "dsc_logo.png",
           duration: "2022 - 2024",
           location: "Vidisha, Madhya Pradesh",
           description:
-            "Earned Google Cloud Swags (2022, 2023, 2024) for active participation and completing hands-on labs in cloud computing, architecture, and deployment.",
+            "Earned Google Cloud Milestone Badges and Swags (2022, 2023, 2024) across intensive hands-on lab challenges covering cloud compute provisioning, networking, BigQuery analytics, and container deployments.",
           color: "#4285F4",
         },
       ],
@@ -407,7 +451,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "A showcase of my projects in Blockchain, Smart Contracts, NFT Marketplaces, Web3 dApps, and Big Data / ML systems.",
+    "A showcase of real-world decentralized protocols, NFT marketplaces, production-grade smart contracts, and data engineering systems.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -418,7 +462,7 @@ const projects = {
       name: "Block Bazar – NFT Marketplace",
       url: "https://github.com/Hemant-2704",
       description:
-        "Full-stack decentralized marketplace for ERC-721 NFTs. Integrated IPFS for metadata storage (zero centralized hosting cost). Smart contracts secured with OpenZeppelin standards and reentrancy-safe payment logic — zero critical vulnerabilities in Foundry test suite.",
+        "Full-stack decentralized marketplace enabling trustless trading of ERC-721 NFTs. Integrated IPFS for decentralized metadata storage, cutting centralized hosting costs to zero. Smart contracts secured with OpenZeppelin standards and reentrancy-safe payment logic — verified through comprehensive Foundry test suites with zero critical vulnerabilities.",
       languages: [
         { name: "Solidity", iconifyClass: "logos-solidity" },
         { name: "Ethers.js", iconifyClass: "simple-icons:ethers" },
@@ -431,7 +475,7 @@ const projects = {
       name: "Crowdfunding Smart Contract",
       url: "https://github.com/Hemant-2704",
       description:
-        "Ethereum crowdfunding contract with automated goal validation and refund mechanisms. Achieved 100% unit and fuzz test coverage using the Foundry testing framework.",
+        "Ethereum community fundraising protocol featuring time-locked milestones, automated goal verification, and instant decentralized refunds. Validated with 100% unit and property-based fuzz test coverage using Foundry.",
       languages: [
         { name: "Solidity", iconifyClass: "logos-solidity" },
         { name: "Foundry", iconifyClass: "simple-icons:ethereum" },
@@ -442,7 +486,7 @@ const projects = {
       name: "Grin & Earn – Blockchain Reward System",
       url: "https://github.com/Hemant-2704",
       description:
-        "Transparent on-chain reward distribution system triggered by emotion-detection outputs. Used Web3.js for real-time frontend-to-blockchain event monitoring.",
+        "Novel on-chain micro-incentive protocol that automatically disbenses token rewards based on real-time computer vision emotion detection outputs. Leveraged Web3.js for seamless frontend-to-blockchain event listening.",
       languages: [
         { name: "Solidity", iconifyClass: "logos-solidity" },
         { name: "Web3.js", iconifyClass: "simple-icons:web3dotjs" },
@@ -453,13 +497,23 @@ const projects = {
 };
 
 const publicationsHeader = {
-  title: "Publications",
-  description: "",
+  title: "Publications & Research",
+  description:
+    "Peer-reviewed research and conference presentations in blockchain architecture, decentralized storage, and Layer-2 scalability.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publications = {
-  data: [],
+  data: [
+    {
+      id: "ncacsit-2025-nft-marketplaces",
+      name: "A Comprehensive Review of Blockchain-Based NFT Marketplaces with Emphasis on Layer 2 Solutions, IPFS, and Smart Contracts",
+      createdAt: "2025-09-26T00:00:00Z",
+      url: "https://drive.google.com/drive/folders/1fb7iwi5oRUl38NvUQKOW_hsfOTXm5ouL?usp=sharing",
+      description:
+        "Presented and certified at the National Conference on Advanced Computer Science and Information Technology (NCACSIT-2025). Investigates the convergence of ERC-721 smart contract standards, decentralized content addressing with IPFS, and Layer-2 Polygon scaling solutions to address gas overhead and throughput bottlenecks in modern decentralized marketplaces.",
+    },
+  ],
 };
 
 // GitHub Open Source
@@ -471,20 +525,20 @@ const openSource = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
+    title: "Get In Touch",
     profile_image_path: "hero_avatar.jpg",
     description:
-      "I am available for Software Engineer, Blockchain Developer, and Associate Engineer opportunities. Feel free to reach out via email or LinkedIn — I will respond promptly!",
+      "I am actively seeking Software Engineer, Blockchain Developer, and Associate Engineer opportunities. Whether you want to discuss a project, collaborate on open-source, or explore potential roles, my inbox is always open. Feel free to connect via email or LinkedIn!",
   },
   blogSection: {
-    title: "Technical Writing & Repos",
+    title: "Code Repositories & Work",
     subtitle:
-      "Showcasing smart contracts, Web3 architecture, and Python projects.",
+      "Explore my open-source smart contracts, Web3 applications, and data pipelines on GitHub.",
     link: "https://github.com/Hemant-2704",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
+    title: "Location",
     subtitle: "Bhopal, Madhya Pradesh, India",
     locality: "Bhopal",
     country: "India",
